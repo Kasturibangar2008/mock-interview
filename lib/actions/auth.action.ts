@@ -1,13 +1,6 @@
 'use server';
-
+import { db, auth } from "@/firebase/admin";
 import { cookies } from "next/headers";
-import { getAuthInstance, getDbInstance } from "@/firebase/admin";
-
-const auth = getAuthInstance();
-const db = getDbInstance();
-
-// Now you can use `auth` and `db` normally
-
 
 const ONE_WEEK = 60 * 60 * 24 * 7; // seconds
 
