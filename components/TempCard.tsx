@@ -71,7 +71,7 @@ const InterviewCard = ({
 
           {/* Placeholder Text */}
           <p className="line-clamp-2 mt-5">
-            You have not taken this interview yet. Take it now to improve your
+            You have&apos;t taken this interview yet. Take it now to improve your
             skills.
           </p>
         </div>
